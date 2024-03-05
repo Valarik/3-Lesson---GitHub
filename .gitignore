@@ -170,6 +170,8 @@ cython_debug/
 .pythonlibs
 .upm/
 replit_zip_error_log.txt
-.gitatributes
+.gitattributes
 .breakpoints
-\.local\share\virtualenv
+.local\
+\share
+\virtualenv
