@@ -170,6 +170,6 @@ cython_debug/
 .local
 .pythonlibs
 .upm/
-.breackpoints
 replit_zip_error_log.txt
 .gitatributes
+.breakpoints
