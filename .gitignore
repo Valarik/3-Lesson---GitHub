@@ -167,9 +167,9 @@ dmypy.json
 cython_debug/
 
 ### Other ###
-.local
 .pythonlibs
 .upm/
 replit_zip_error_log.txt
 .gitatributes
 .breakpoints
+\.local\share\virtualenv
