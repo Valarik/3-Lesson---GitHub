@@ -1,1 +1,0 @@
-9999999999{"name": "distribute", "version": "0.7.3", "summary": "distribute legacy wrapper", "requires_dist": ["setuptools>=0.7"], "requires_python": null, "files": [{"file": "distribute-0.7.3.zip", "hash": "sha256:3dc7a8d059dcf72f0ead2fa2144a24ee0ef07dce816e8c3545d7345767138c5e"}], "yanked": false, "_cache_version": "2.0.0"}

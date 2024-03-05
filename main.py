@@ -46,7 +46,7 @@ def count_clicks(bitlink_id, bitly_api_token):
     return response.json()['total_clicks']
 
 
-def createParser():
+def createparser():
     parser = argparse.ArgumentParser(
         description='Программа сокращает ссылку и считает количество кликов по уже сокращенной ссылке'
     )
@@ -55,13 +55,10 @@ def createParser():
 
 
 def main():
-    parser = createParser()
+    parser = createparser()
     args = parser.parse_args()
     bitly_api_token = os.environ.get('BITLY_API_TOKEN')
-    if args.url is not None:
-        url = args.url
-    else:
-        url = input('Введите ссылку: ')
+    url = args.url
     bitlink_id = get_bitlink(url)
     try:
         if is_bitlink(bitlink_id, bitly_api_token):
