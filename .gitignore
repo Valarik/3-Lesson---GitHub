@@ -167,8 +167,8 @@ dmypy.json
 cython_debug/
 
 ### Other ###
-/.local/
-/.pythonlibs/
+.local
+.pythonlibs
 .upm/
 .breackpoints
 replit_zip_error_log.txt
